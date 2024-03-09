@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'star';
+    src: url('../fonts/moon_star/Moonstar.ttf');
+}
+
+/* navbar */
+.navbar{
+    background-color: rgb(9, 152, 152);
+}
+.navbar-brand{
+    font-family: 'star';
+    padding-bottom: 0px;
+    font-size: 1.5rem;
+}
+
+/* main image */
+.mainImg{
+    width:  40rem;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: -1px 10px 38px 0px rgba(29,134,203,0.49);
+-webkit-box-shadow: -1px 10px 38px 0px rgba(29,134,203,0.49);
+-moz-box-shadow: -1px 10px 38px 0px rgba(29,134,203,0.49);
+}
+
+/* main text */
+.mainpara{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.ml14 {
+    font-weight: 200;
+    font-size: 3.2em;
+  }
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.development{
+    color:  rgb(9, 152, 152);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+}
+
+.maincontainer{
+    margin-top: 6rem;
+}
+@media only screen and (max-width: 768px) {
+    .maincontainer {
+        margin: 6rem;
+    }
+}
+
+.btn.btn-primary.but{
+    background-color: rgb(9, 152, 152);
+}
+
+
+/* main icons */
+.iconmain{
+    border-right: 1px solid #000; /* You can adjust the width and color */
+    height: 400px; /* Adjust the height of the line */
+}
+
+@media only screen and (max-width: 768px) {
+    .iconmain {
+        display: none;
+    }
+}
+
+/* about */
+.about{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.aboutt{
+    font-size: 1.2rem;
+}
+b{
+    color: rgb(15, 99, 99);;
+}
+
+/* skills */
+.skills{
+    background-color: rgb(9, 152, 152);
+    font-size: 2.6rem;
+}
+.bx{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    box-shadow: -1px 10px 38px 0px rgba(29,134,203,0.49);
+-webkit-box-shadow: -1px 10px 38px 0px rgba(29,134,203,0.49);
+-moz-box-shadow: -1px 10px 38px 0px rgba(29,134,203,0.49);
+margin-bottom: 2rem;
+}
+.bx:hover{
+    cursor: pointer;
+}
+
+/* portfolio */
+.container {
+    overflow-x: hidden;
+}
+.portfolio{
+    background-color: rgb(203, 234, 234);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+/* contect */
+.cont{
+    padding: 0;
+    margin: 0;
+}
+.custom-anchor{
+    font-size: 1rem;
+    color: black;
+}
+.custom-row {
+    padding: 0; /* Set padding of the row to 0 */
+}
+.contectimg{
+    box-shadow: -1px 10px 38px 0px rgba(29,134,203,0.49);
+-webkit-box-shadow: -1px 10px 38px 0px rgba(29,134,203,0.49);
+-moz-box-shadow: -1px 10px 38px 0px rgba(29,134,203,0.49);
+}
+@media only screen and (max-width: 768px) {
+    .contectimg{
+      display: none;
+    }
+  }
+
+/* thanks */
+.thanks{
+    background-color: rgb(9, 152, 152);;
+}
